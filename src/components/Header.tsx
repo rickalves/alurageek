@@ -1,14 +1,9 @@
-import React from 'react'
 import Button from './Button'
 import logo from '../assets/images/logo.png'
 import banner from '../assets/images/banner.jpg'
 import { SearchIcon } from './Icons'
 
-interface LayoutProps {
-    // children: any
-}
-
-export default function Header(props: LayoutProps) {
+export default function Header(props: any) {
     return (
         <header className={`gap-x-6 gap-y-6 col-span-12 border-2 border-slate-600`}>
             <div className={`flex justify-between items-center p-4`}>
