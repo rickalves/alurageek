@@ -4,9 +4,9 @@ interface PropsSection{
 }
 export default function Section(props:PropsSection){
     return (
-        <section>
-          <h1>{props.titulo}</h1>
-          <a href="#">Ver Tudo</a>
+        <section className="">
+          <h1 className="text-2xl font-bold">{props.titulo}</h1>
+          <a href="#" className="text-sm">Ver Tudo</a>
           {props.children}
         </section>
     )
