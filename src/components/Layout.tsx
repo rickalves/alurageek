@@ -1,11 +1,13 @@
+import React from "react"
+
 interface LayoutProps {
     children: any
 }
 
 export default function Layout(props: LayoutProps){
     return(
-      <div className={`grid grid-cols-12`}>
+      <React.Fragment>
           {props.children}
-      </div>
+      </React.Fragment>
     )
 }

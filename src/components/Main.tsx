@@ -3,7 +3,7 @@ interface PropsMain{
 }
 export default function Main(props:PropsMain){
     return (
-        <main>
+        <main className="col-span-12">
             {props.children}
         </main>
     )
