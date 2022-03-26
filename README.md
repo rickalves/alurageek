@@ -1,4 +1,5 @@
-# Projeto de loja virtual desenvolvido no Alura challenge 
+## Projeto de frontend desenvolvido no Alura Challenge
+#
 `Projeto de front-end de uma loja virtual.`
 ## Tecnologias Utilizadas
 [
