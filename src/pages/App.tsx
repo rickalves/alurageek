@@ -32,6 +32,18 @@ function App() {
                 preco='R$ 60,00' 
                 imageUrl='/produtos__starwars/unsplash_4OHkK555s1A.jpg'
               />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__starwars/unsplash_R8L1l9RN198.jpg'
+                className='hidden xl:flex'
+              />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__starwars/unsplash_1VV1MRafd7A.jpg'
+                className='hidden xl:flex'
+              />
             </Section>
             <Section titulo="Consoles">
               <CardProduto 
@@ -54,6 +66,18 @@ function App() {
                 preco='R$ 60,00' 
                 imageUrl='/produtos__consoles/unsplash_wa5z9o9fgjw.jpg'
               />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__consoles/unsplash_Zjn4dT993-g.jpg'
+                className='hidden xl:flex'
+              />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__consoles/unsplash_k-xYhI3-gJM.jpg'
+                className='hidden xl:flex'
+              />
             </Section>
             <Section titulo="Diversos">
               <CardProduto 
@@ -75,6 +99,18 @@ function App() {
                 titulo='Produto XYZ'  
                 preco='R$ 60,00' 
                 imageUrl='/produtos__diversos/unsplash_jMT6BrgBuXU.jpg'
+              />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__diversos/unsplash_MxVkWPiJALs.jpg'
+                className='hidden xl:flex'
+              />
+              <CardProduto 
+                titulo='Produto XYZ'  
+                preco='R$ 60,00' 
+                imageUrl='/produtos__diversos/unsplash_r27umXAelDc.jpg'
+                className='hidden xl:flex'
               />
             </Section>
           </Main>

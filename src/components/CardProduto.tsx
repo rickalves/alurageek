@@ -4,10 +4,11 @@ interface CardProps{
     titulo: string
     imageUrl: string
     preco: string
+    className?: string
 }
 export default function CardProduto(props: CardProps){
     return (
-        <div className='flex flex-col gap-1 col-span-6 md:col-span-3'>
+        <div className={`flex flex-col gap-1 col-span-6 md:col-span-3 xl:col-span-2 ${props.className}`}>
             <img 
                 src={require(`../assets/images${props.imageUrl}`)} 
                 alt="imagem do produto" 
