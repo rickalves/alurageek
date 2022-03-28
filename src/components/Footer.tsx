@@ -24,7 +24,7 @@ export default function(props:any){
                     </div>
                 </form>
             </section>
-            <section className='col-span-12 bg-white p-6'>
+            <section className='col-span-12 bg-white p-6 flex items-center justify-center'>
                 <p>&copy; Desenvolvido por <span className='font-bold text-blue-500'>Henrique Alves</span> 2022</p>
             </section>
         </footer>

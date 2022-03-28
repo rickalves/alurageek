@@ -7,7 +7,7 @@ interface CardProps{
 }
 export default function CardProduto(props: CardProps){
     return (
-        <div className='flex flex-col gap-1 sm: col-span-6'>
+        <div className='flex flex-col gap-1 col-span-6 md:col-span-3'>
             <img 
                 src={require(`../assets/images${props.imageUrl}`)} 
                 alt="imagem do produto" 
