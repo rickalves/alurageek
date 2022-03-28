@@ -8,7 +8,7 @@ export default function Header(props: any) {
     return (
         <header className={`grid grid-cols-12 gap-x-2 overflow-hidden xl:h-96`}>
             <section className='col-span-4 md:col-span-3 flex items-center pl-4 xl:pl-36 xl:h-24'>
-                <img src={logo} alt="Logo do site" className={`h-8 md:h-10`} />
+                <img src={logo} alt="Logo do site" className={`h-8 md:h-10 xl:h-12`} />
             </section>
             <section className={`flex md:flex-row-reverse justify-around 
              items-center p-4 md:p-3 col-span-8 md:col-span-9 md:justify-between xl:pr-36`
