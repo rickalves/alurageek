@@ -15,7 +15,7 @@ export default function FormInput(props: InputProps){
                             type={props.type} 
                             name={props.title.toLowerCase()}
                             placeholder={props.placehold}
-                            className={`border-b-2 border-gray-300 h-9 text-md p-1 outline-blue-400 rounded-sm ${props.className}`}
+                            className={`border-b-2 border-gray-300 h-9 text-md p-3 outline-blue-400 rounded-sm ${props.className}`}
                         />
                     </div>
                 )
