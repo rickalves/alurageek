@@ -1,9 +1,9 @@
 import CardProduto from '../components/CardProduto';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Layout from '../components/Layout';
-import Main from '../components/Main';
-import Section from '../components/Section';
+import Footer from '../components/layout/Footer';
+import Header from '../components/layout/Header';
+import Layout from '../components/layout/Layout';
+import Main from '../components/layout/Main';
+import Section from '../components/layout/Section';
 
 function App() {
   return (

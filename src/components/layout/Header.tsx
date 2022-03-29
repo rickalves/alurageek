@@ -1,8 +1,8 @@
-import Button from './Button'
-import logo from '../assets/images/logo.png'
-import banner from '../assets/images/banner.jpg'
-import { SearchIcon } from './Icons'
-import FormInput from './FormInput'
+import Button from '../Button'
+import logo from '../../assets/images/logo.png'
+import banner from '../../assets/images/banner.jpg'
+import { SearchIcon } from '../Icons'
+import FormInput from '../FormInput'
 
 export default function Header(props: any) {
     return (

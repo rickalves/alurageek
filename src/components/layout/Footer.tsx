@@ -1,6 +1,6 @@
-import logo from '../assets/images/logo.png'
-import Button from './Button'
-import FormInput from './FormInput'
+import logo from '../../assets/images/logo.png'
+import Button from '../Button'
+import FormInput from '../FormInput'
 
 export default function (props: any) {
     return (

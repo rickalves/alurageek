@@ -1,4 +1,4 @@
-import { ArrowRight } from "./Icons"
+import { ArrowRight } from "../Icons"
 
 interface PropsSection{
     children:any
