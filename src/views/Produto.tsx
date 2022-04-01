@@ -16,7 +16,7 @@ export default function Produto(props: any){
             <Main>
                 <ProdutoDesc produto={produtosBase.at(0)} />
                 <Section hiddenLink={true}>
-                    <CardsProdutos categoria="starwars" produtos={produtosBase} />
+                    {/* <CardsProdutos categoria="starwars" produtos={produtosBase} /> */}
                 </Section>
             </Main>
             <Footer />

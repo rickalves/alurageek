@@ -7,19 +7,31 @@ import Section from "../components/layout/Section"
 import produtos from "../api/Produtos.json"
 
 export default () => {
-    const produtosBase = Array.from(produtos)
+
+    function renderizarProdutos(categoria: string) {
+        const produtosBase = Array.from(produtos)
+        const produtosCategoria = produtosBase.filter(produto => produto.categoria === categoria)
+        return produtosCategoria.map((produto, id) => {
+            if(id > 3){
+               return <CardsProdutos key={produto.id}  produto={produto} className="hidden xl:flex"/>
+            }else{
+               return <CardsProdutos key={produto.id} produto={produto} />
+            }
+        })
+    }
+
     return (
         <Layout>
             <Header />
             <Main>
                 <Section titulo="Star Wars">
-                    <CardsProdutos categoria="starwars" produtos={produtosBase} />
+                    {renderizarProdutos("starwars")}
                 </Section>
                 <Section titulo="Consoles">
-                    <CardsProdutos categoria="consoles" produtos={produtosBase} />
+                    {renderizarProdutos("consoles")}
                 </Section>
                 <Section titulo="Diversos">
-                    <CardsProdutos categoria="diversos" produtos={produtosBase} />
+                    {renderizarProdutos("diversos")}
                 </Section>
             </Main>
             <Footer />
