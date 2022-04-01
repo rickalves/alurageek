@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_6FDXGY9J6y4.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 2,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_epRFE_hBNjo.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 3,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_KeGToDVN0l4.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 4,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_4OHkK555s1A.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 5,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_R8L1l9RN198.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 6,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__starwars/unsplash_1VV1MRafd7A.jpg",
+        "categoria": "starwars",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 7,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_0POwK6iAiRQ.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 8,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_caNzzoxls8Q.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 9,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_ZV7lnfyQLmA.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 10,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_wa5z9o9fgjw.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 11,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_Zjn4dT993-g.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 12,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__consoles/unsplash_k-xYhI3-gJM.jpg",
+        "categoria": "consoles",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 13,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_fMP-oCze3AY.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 14,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_bUgaIaZysH0.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 15,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_sYVY_ZKwaxU.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 16,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_jMT6BrgBuXU.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 17,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_MxVkWPiJALs.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    },
+    {
+        "id": 18,
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "imageUrl": "/produtos__diversos/unsplash_r27umXAelDc.jpg",
+        "categoria": "diversos",
+        "descricao": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores"
+    }
+    
+]
+
