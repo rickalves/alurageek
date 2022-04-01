@@ -7,7 +7,7 @@ import Section from "../components/layout/Section"
 export default (props: any) => {
     return (
         <Layout>
-            <Header hiddenBanner={true}/>
+            <Header hiddenBanner={true} hiddenLogin={true}/>
             <section className="flex flex-col gap-y-4 items-center py-20 px-10 bg-zinc-100">
                 <h1 className="font-bold text-lg">Iniciar Sessão</h1>
                 <form action="" className="w-full md:w-1/2 xl:w-1/3 flex flex-col gap-y-2">

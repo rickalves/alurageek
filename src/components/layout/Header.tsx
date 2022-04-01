@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 interface HeaderProps {
     hiddenBanner?: boolean
+    hiddenLogin?: boolean
 }
 
 export default function Header(props: HeaderProps) {
@@ -21,7 +22,7 @@ export default function Header(props: HeaderProps) {
             items-center p-4 md:p-3 col-span-8 md:col-span-9 md:justify-between xl:pr-36`
             }>
                 <Link to="login">
-                    <Button title='Login' type="outline" className='md:mr-6' />
+                    <Button title='Login' type="outline" className={`md:mr-6 ${props.hiddenLogin ? 'hidden' : ''}`}  />
                 </Link>
                 <form className='flex'>
                     <FormInput

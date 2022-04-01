@@ -1,4 +1,3 @@
-import image from '../assets/images/produtos__starwars/unsplash_6FDXGY9J6y4.jpg'
 interface CardProps {
     children?: any
     titulo: string
