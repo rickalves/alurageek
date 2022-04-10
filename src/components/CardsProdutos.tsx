@@ -2,13 +2,13 @@ import { Link } from "react-router-dom"
 interface Produto {
     id: number
     titulo: string
-    preco: number
+    preco: string
     imageUrl: string
     categoria: string
     descricao: string
 }
 interface CardsProps {
-    produto: any
+    produto: Produto
     className?: string
 }
 export default function CardsProdutos(props: CardsProps) {
@@ -26,5 +26,5 @@ export default function CardsProdutos(props: CardsProps) {
                          <span className="text-sm font-bold text-blue-500">Ver produto</span>
                     </Link>
                 </div>
-            )
+            )     
 }
