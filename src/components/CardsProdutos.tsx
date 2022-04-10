@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom"
-
+interface Produto {
+    id: number
+    titulo: string
+    preco: number
+    imageUrl: string
+    categoria: string
+    descricao: string
+}
 interface CardsProps {
     produto: any
     className?: string

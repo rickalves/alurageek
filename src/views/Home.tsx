@@ -4,12 +4,12 @@ import Header from "../components/layout/Header"
 import Layout from "../components/layout/Layout"
 import Main from "../components/layout/Main"
 import Section from "../components/layout/Section"
-import produtos from "../api/Produtos.json"
+import db from "../api/db.json"
 
 export default () => {
 
     function renderizarProdutos(categoria: string) {
-        const produtosBase = Array.from(produtos)
+        const produtosBase = Array.from(db.produtos)
         const produtosCategoria = produtosBase.filter(produto => produto.categoria === categoria)
         return produtosCategoria.map((produto, id) => {
             if(id > 3){
