@@ -5,9 +5,10 @@ import Layout from "../components/layout/Layout";
 import Main from "../components/layout/Main";
 import Section from "../components/layout/Section";
 import ProdutoDesc from "../components/ProdutoDesc";
-import { useParams } from "react-router-dom"
+import { useLocation, useParams } from "react-router-dom"
 import axios from 'axios'
 import { useEffect, useState } from "react";
+import NotFound from "./404";
 
 interface Produtos {
   id: number
@@ -22,8 +23,6 @@ export default function Produto(props: any) {
   const url = "http://localhost:3004/produtos"
   const [produtos, setProdutos] = useState<Produtos[]>([])
   const params = useParams()
-  const produtoId = getProdutoId(Number(params.productId))
-  const produtosSimilares = getProdutosSimilares(produtoId)
 
   useEffect(() => {
     async function getProdutos(url: string) {
@@ -33,7 +32,7 @@ export default function Produto(props: any) {
     getProdutos(url)
   }, [])
 
-
+ 
   function getProdutoId(id: number): Produtos {
     const produtosBase = Array.from(produtos) as Produtos[]
     return produtosBase.find(produto => produto.id === id) as Produtos
@@ -54,7 +53,11 @@ export default function Produto(props: any) {
 
     return produtosSimilares
   }
-  return (
+   
+  if(Number(params.productId) <= produtos.length){
+    const produtoId = getProdutoId(Number(params.productId))
+    const produtosSimilares = getProdutosSimilares(produtoId)
+    return (
     <Layout>
       <Header hiddenBanner={true} />
       <Main>
@@ -62,7 +65,6 @@ export default function Produto(props: any) {
           <ProdutoDesc produto={produtoId} />
         </Section>
         <Section titulo="Produtos Similares" hiddenLink={true} fullTitulo={true} className="p-5 md:p-6 bg-stone-100">
-          {/* {renderizarProdutosSimilares(produtoId)} */}
           {
             produtosSimilares.map((produtoSimilar, key) => {
               if (key > 3) {
@@ -77,4 +79,10 @@ export default function Produto(props: any) {
       <Footer />
     </Layout>
   )
+  }else{
+    return <NotFound type="products" />
+  }
+
+  
+  
 }
