@@ -41,11 +41,11 @@ export default function Header(props: HeaderProps) {
                         title=''
                         placehold='O que deseja encontrar?'
                         type='text'
-                        className='border-none bg-gray-100 rounded-full text-sm p-3 w-72 xl:w-96 hidden md:flex'
+                        className='border-none bg-gray-100 rounded-full text-sm px-3 w-72 xl:w-96 hidden md:flex'
                     />
                     <Button
                         type="icon"
-                        className='md:-ml-12 z-10 md:mt-3.5 text-gray-400'>
+                        className='md:-ml-12 z-10 md:mt-5 text-gray-400'>
                         {SearchIcon}
                     </Button>
                 </form>

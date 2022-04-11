@@ -19,7 +19,7 @@ export default function (props: any) {
             <section className='md:col-span-7 xl:col-span-6 col-span-12 flex flex-col gap-2 p-5 pt-10 xl:pt-5 md:pr-8 xl:pr-36 xl:pb-20'>
                 <h2 className='font-bold text-xl'>Fale conosco</h2>
                 <form className='flex flex-col gap-y-2'>
-                    <FormInput title='Nome' placehold='Escreva seu nome...' type='text' />
+                    <FormInput title='Nome' placehold='Escreva seu nome...' type='text' formGroup='border-b-2 border-solid border-gray-400' />
                     <FormInput title='Mensagem' placehold='Escreva sua mensagem...' type='textarea' />
                     <div>
                         <Button title='Enviar mensagem' type='primary' className='h-10' />

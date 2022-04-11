@@ -1,0 +1,51 @@
+.form{
+    padding: 20px;
+}
+
+.form input{
+    background-color: #FFFFFF;
+}
+.form input::placeholder, .form textarea::placeholder{
+    color: rgb(50, 50, 50);
+}
+
+.form div{
+    border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+.form button{
+    margin-top: 10px;
+}
+.form textarea{
+    padding-top: 5px;
+    resize: none;
+}
+
+.form input[type="file"]{
+  display: block;
+  height: 100%;
+}
+
+.form input[type="file"]::before{
+    content: "\002b";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    color: rgb(141, 141, 141);
+    font-size: 70px;
+    cursor: pointer;
+}
+
+
+.form div:first-child{
+    border: 2px dashed rgb(150, 149, 149);
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.form span{
+    position: absolute;
+    color: rgb(145, 146, 146);
+}

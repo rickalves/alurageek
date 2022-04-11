@@ -4,7 +4,7 @@ import Header from "../../components/layout/Header";
 import Layout from "../../components/layout/Layout";
 import Main from "../../components/layout/Main";
 import Section from "../../components/layout/Section";
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import axios from 'axios'
 import { useEffect, useState } from "react";
 import Button from "../../components/Button";
@@ -21,7 +21,7 @@ interface Produtos {
 export default function Produtos(props: any) {
   const url = "http://localhost:3004/produtos"
   const [produtos, setProdutos] = useState<Produtos[]>([])
-  const params = useParams()
+  const navigate = useNavigate()
 
   useEffect(() => {
     async function getProdutos(url: string) {
@@ -37,7 +37,9 @@ export default function Produtos(props: any) {
       <Main>
         <Section titulo="Todos os produtos" hiddenLink={true} fullTitulo={true} className="p-5 md:px-6 md:pt-10 bg-stone-100">
            <div className="col-span-full  flex md:justify-end md:-mt-14">
-              <Button title="Adicionar produto" type="primary" className="h-12" />
+              <Button title="Adicionar produto" type="primary" className="h-12" onClick={(e) =>{
+                navigate("/produtos/novo")
+              }} />
            </div>
            
           {
