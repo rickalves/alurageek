@@ -12,18 +12,7 @@ interface CardsProps {
     className?: string
 }
 export default function CardsProdutos(props: CardsProps) {
-    const location = useLocation()
-
-    function getPath(): string {
-      let path = ""
-      if(location.pathname === "/"){
-         path = 'produtos/'+props.produto.id;
-      }else{
-          path = props.produto.id.toString()
-      }    
-      return path
-    }
-       
+    
             return (
                 <div key={props.produto.id} className={`flex flex-col gap-1 col-span-6 md:col-span-3 xl:col-span-2 
                  ${props.className}`}>
@@ -34,7 +23,7 @@ export default function CardsProdutos(props: CardsProps) {
                     />
                     <h3 className='text-sm'>{props.produto.titulo}</h3>
                     <h3 className="font-bold">{props.produto.preco}</h3>
-                    <Link to={getPath()}>
+                    <Link to={'/produtos/'+props.produto.id}>
                          <span className="text-sm font-bold text-blue-500">Ver produto</span>
                     </Link>
                 </div>

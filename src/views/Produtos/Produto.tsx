@@ -1,14 +1,14 @@
-import CardsProdutos from "../components/CardsProdutos";
-import Footer from "../components/layout/Footer";
-import Header from "../components/layout/Header";
-import Layout from "../components/layout/Layout";
-import Main from "../components/layout/Main";
-import Section from "../components/layout/Section";
-import ProdutoDesc from "../components/ProdutoDesc";
-import { useLocation, useParams } from "react-router-dom"
+import CardsProdutos from "../../components/CardsProdutos";
+import Footer from "../../components/layout/Footer";
+import Header from "../../components/layout/Header";
+import Layout from "../../components/layout/Layout";
+import Main from "../../components/layout/Main";
+import Section from "../../components/layout/Section";
+import ProdutoDesc from "../../components/ProdutoDesc";
+import { useParams } from "react-router-dom"
 import axios from 'axios'
 import { useEffect, useState } from "react";
-import NotFound from "./404";
+import NotFound from "../404";
 
 interface Produtos {
   id: number
