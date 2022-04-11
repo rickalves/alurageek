@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png'
 import banner from '../../assets/images/banner.jpg'
 import { SearchIcon } from '../Icons'
 import FormInput from '../FormInput'
-import { Link } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 
 interface HeaderProps {
     hiddenBanner?: boolean
@@ -11,6 +11,18 @@ interface HeaderProps {
 }
 
 export default function Header(props: HeaderProps) {
+    const location = useLocation()
+    
+    function getPath(): string {
+      let path = ""
+      if(location.pathname === "/" || location.pathname.startsWith("/produtos")){
+         path = "/login"
+      }else{
+         path = "" 
+      }    
+      return path
+    }
+
     return (
         <header className={`grid grid-cols-12 gap-x-2 overflow-hidden`}>
             <section className='col-span-4 md:col-span-3 flex items-center pl-4 xl:pl-36 xl:h-24'>
@@ -21,7 +33,7 @@ export default function Header(props: HeaderProps) {
             <section className={`flex md:flex-row-reverse justify-around 
             items-center p-4 md:p-3 col-span-8 md:col-span-9 md:justify-between xl:pr-36`
             }>
-                <Link to="login">
+                <Link to={getPath()}>
                     <Button title='Login' type="outline" className={`md:mr-6 ${props.hiddenLogin ? 'hidden' : ''}`}  />
                 </Link>
                 <form className='flex'>
