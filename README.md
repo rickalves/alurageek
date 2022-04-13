@@ -1,3 +1,12 @@
+# Alura Geek: Site de E-Commerce
+<div align='center'>
+  <figure>
+    <a href='https://alurageek-iota.vercel.app/' target='_blank'>
+      <img src='https://raw.githubusercontent.com/rickalves/alurageek/main/public/og-image.png'>
+    </a>
+    <figcaption>Para testar o site, basta clicar na imagem!😁</figcaption>
+  </figure>
+
 ## 🔎 **Visão geral**
 
 Olá, devs!
