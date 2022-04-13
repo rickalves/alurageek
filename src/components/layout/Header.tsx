@@ -34,18 +34,18 @@ export default function Header(props: HeaderProps) {
             items-center p-4 md:p-3 col-span-8 md:col-span-9 md:justify-between xl:pr-36`
             }>
                 <Link to={getPath()}>
-                    <Button title='Login' type="outline" className={`md:mr-6 ${props.hiddenLogin ? 'hidden' : ''}`}  />
+                    <Button title='Login' type="outline" className={`md:mr-6 ${props.hiddenLogin ? 'hidden' : ''} px-5 py-2`}  />
                 </Link>
                 <form className='flex'>
                     <FormInput
                         title=''
                         placehold='O que deseja encontrar?'
                         type='text'
-                        className='border-none bg-gray-100 rounded-full text-sm p-3 w-72 xl:w-96 hidden md:flex'
+                        className='border-none bg-gray-100 rounded-full text-sm px-3 w-72 xl:w-96 hidden md:flex'
                     />
                     <Button
                         type="icon"
-                        className='md:-ml-12 z-10 md:mt-3.5 text-gray-400'>
+                        className='md:-ml-12 z-10 md:mt-5 text-gray-400'>
                         {SearchIcon}
                     </Button>
                 </form>
