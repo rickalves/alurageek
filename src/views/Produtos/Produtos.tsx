@@ -4,9 +4,9 @@ import Header from "../../components/layout/Header";
 import Layout from "../../components/layout/Layout";
 import Main from "../../components/layout/Main";
 import Section from "../../components/layout/Section";
-import { useNavigate, useParams } from "react-router-dom"
-import axios from 'axios'
-import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom"
+import data from '../../api/db.json'
+import { useState } from "react";
 import Button from "../../components/Button";
 
 interface Produtos {
@@ -20,16 +20,16 @@ interface Produtos {
 
 export default function Produtos(props: any) {
   const url = "http://localhost:3004/produtos"
-  const [produtos, setProdutos] = useState<Produtos[]>([])
+  const [produtos, setProdutos] = useState<Produtos[]>(Array.from(data.produtos))
   const navigate = useNavigate()
 
-  useEffect(() => {
-    async function getProdutos(url: string) {
-      const resp = await axios.get(url)
-      setProdutos(resp.data)
-    }
-    getProdutos(url)
-  }, [])
+  // useEffect(() => {
+  //   async function getProdutos(url: string) {
+  //     const resp = await axios.get(url)
+  //     setProdutos(resp.data)
+  //   }
+  //   getProdutos(url)
+  // }, [])
 
     return (
     <Layout>
@@ -37,7 +37,7 @@ export default function Produtos(props: any) {
       <Main>
         <Section titulo="Todos os produtos" hiddenLink={true} fullTitulo={true} className="p-5 md:px-6 md:pt-10 bg-stone-100">
            <div className="col-span-full  flex md:justify-end md:-mt-14">
-              <Button title="Adicionar produto" type="primary" className="h-12" onClick={(e) =>{
+              <Button title="Adicionar produto" type="primary" className="h-12 px-3" onClick={(e) =>{
                 navigate("/produtos/novo")
               }} />
            </div>

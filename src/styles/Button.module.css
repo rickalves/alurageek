@@ -3,7 +3,6 @@
 }
 
 .btn__outline{
-    padding: 10px 40px;
     color: var(--primary-color); 
     border:2px solid var(--primary-color); 
     font-weight: 600;                 
@@ -11,7 +10,6 @@
 
 .btn__primary{
   background-color: var(--primary-color);
-  padding: 10px 20px;
   color: #FFFFFF;
 }
 

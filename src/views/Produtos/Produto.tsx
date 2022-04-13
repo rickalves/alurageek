@@ -6,8 +6,8 @@ import Main from "../../components/layout/Main";
 import Section from "../../components/layout/Section";
 import ProdutoDesc from "../../components/ProdutoDesc";
 import { useParams } from "react-router-dom"
-import axios from 'axios'
-import { useEffect, useState } from "react";
+import data from '../../api/db.json'
+import { useState } from "react";
 import NotFound from "../404";
 
 interface Produtos {
@@ -21,16 +21,16 @@ interface Produtos {
 
 export default function Produto(props: any) {
   const url = "http://localhost:3004/produtos"
-  const [produtos, setProdutos] = useState<Produtos[]>([])
+  const [produtos, setProdutos] = useState<Produtos[]>(Array.from(data.produtos))
   const params = useParams()
 
-  useEffect(() => {
-    async function getProdutos(url: string) {
-      const resp = await axios.get(url)
-      setProdutos(resp.data)
-    }
-    getProdutos(url)
-  }, [])
+  // useEffect(() => {
+  //   async function getProdutos(url: string) {
+  //     const resp = await axios.get(url)
+  //     setProdutos(resp.data)
+  //   }
+  //   getProdutos(url)
+  // }, [])
 
  
   function getProdutoId(id: number): Produtos {

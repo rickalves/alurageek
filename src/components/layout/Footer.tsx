@@ -22,7 +22,7 @@ export default function (props: any) {
                     <FormInput title='Nome' placehold='Escreva seu nome...' type='text' formGroup='border-b-2 border-solid border-gray-400' />
                     <FormInput title='Mensagem' placehold='Escreva sua mensagem...' type='textarea' />
                     <div>
-                        <Button title='Enviar mensagem' type='primary' className='h-10' />
+                        <Button title='Enviar mensagem' type='primary' className='h-10 px-3' />
                     </div>
                 </form>
             </section>
