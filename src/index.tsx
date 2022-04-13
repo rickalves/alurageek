@@ -9,6 +9,7 @@ import Login from './views/Login';
 import Produto from './views/Produtos/Produto';
 import Produtos from './views/Produtos/index';
 import ProdutosTodos from './views/Produtos/Produtos';
+import Novo from './views/Produtos/Novo';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
           <Route path="produtos" element={<Produtos />}>
             <Route index element={<ProdutosTodos />} />
             <Route path=":productId" element={<Produto />} />
+            <Route path="novo" element={<Novo />} />
           </Route>
         </Route>
       </Routes>
