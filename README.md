@@ -1,12 +1,10 @@
 ## 🔎 **Visão geral**
-#
 
 Olá, devs!
 
 Neste repositório você encontrará uma página de e-commerce para uma loja online de produtos geek chamada **Alura Geek**, que está sendo desenvolvida como resultado de um Desafio Front-End (3ª edição) exclusivo para alunos da escola de tecnologia [Alura](https://www.alura.com.br).
 
 ## 🦾 **Sobre o desafio**
-#
 
 O Desafio simula um ambiente de trabalho real, com tarefas exigidas pelos designers por meio de cartões no **Trello** para que os alunos possam experimentar como é um job real. É necessário comunicar-se e entender o que os designers realmente querem de cada tarefa, podemos escolher a tecnologia que melhor se aplica a nós para desenvolvermos o código. Você pode adicionar recursos e sugerir modificações caso tenha ideias melhores e assim por diante.
 
@@ -17,7 +15,6 @@ O Desafio dura 4 semanas. Todas as segundas-feiras durante 3 semanas receberemos
 O Desafio começou em 14 de março de 2022.
 
 ## 📈 **Andamento do projeto**
-#
 
 - **Semana 1:** Desenvolvimento das estruturas e estilizações. No meu caso, escolhi desenvolver em React com Typescript.
 - **Semana 2:** Implementação dos formulários da login e cadastro de produtos.
@@ -25,7 +22,6 @@ O Desafio começou em 14 de março de 2022.
 - **Semana 4 (atual):** Finalização do projeto com cadastro dos itens no banco de dados e funcionalidade de adicionar mais produtos e validações de formulários.
 
 ## 💻 Linguagens, bibliotecas e/ou API's utilizadas (até o momento):
-#
 
 <div>
   <img src="https://img.shields.io/badge/REACT-0A81D1?style=for-the-badge&logo=react&logoColor=white">
@@ -40,7 +36,6 @@ O Desafio começou em 14 de março de 2022.
 <br>
 
 ## 🚩 Status / Info
-#
 [
 ![](https://img.shields.io/badge/npm-v.8.1.0-blue)
 ![](https://img.shields.io/github/stars/rickalves/alurageek.svg)
