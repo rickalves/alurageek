@@ -7,6 +7,7 @@
     <figcaption>Para testar o site, basta clicar na imagem!😁</figcaption>
   </figure>
 </div>
+
 ## 🔎 **Visão geral**
 
 Olá, devs!
@@ -45,9 +46,8 @@ O Desafio começou em 14 de março de 2022.
 <br>
 
 ## 🚩 Status / Info
-[
+
 ![](https://img.shields.io/badge/npm-v.8.1.0-blue)
 ![](https://img.shields.io/github/stars/rickalves/alurageek.svg)
 ![](https://img.shields.io/github/commit-activity/w/rickalves/alurageek.svg)
 ![](https://img.shields.io/github/license/rickalves/alurageek.svg)
-](https://github.com/rickalves/alurageek/blob/main/README.md)
