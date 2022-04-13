@@ -6,7 +6,7 @@
     </a>
     <figcaption>Para testar o site, basta clicar na imagem!😁</figcaption>
   </figure>
-
+</div>
 ## 🔎 **Visão geral**
 
 Olá, devs!
