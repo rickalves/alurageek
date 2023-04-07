@@ -1,4 +1,15 @@
 # Alura Geek: Site de E-Commerce
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Alura Geek**
+| :label: Tecnologias | React, Nodejs, Tailwind, CSS, TypeScript 
+| :rocket: URL         | https://alurageek-iota.vercel.app/
+| :fire: Desafio     | [Alura Frontend Challenge](https://www.alura.com.br/challenges/front-end-3)
+
+
+
+
 <div align='center'>
   <figure>
     <a href='https://alurageek-iota.vercel.app/' target='_blank'>
